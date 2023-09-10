@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;box-sizing: border-box;
+}
+
+body{
+    margin: 1rem;
+    padding: 0.5rem;
+    background-color: azure;
+}
+.first {
+    position: relative;
+    height: 61px;
+    width: 535px;
+    left: 373px; 
+}
+
+.first h1 {
+    position: relative;
+    text-align: center;
+    left: 5vw;
+}
+ u{
+    position: relative;
+    margin: 30vh 0vh 20vh 40vw;
+    font-weight: 500;
+    font-size: 28px;
+}
+.second{
+    margin-left: 1vw;
+    margin-right: 1vw;
+
+}
+.second p{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 300;
+}
+ul li{
+    margin-top: 8vh;
+    font-weight: 300;
+    font-size: 24px;
+}

@@ -1,0 +1,109 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    /* background-color: rgb(225, 214, 225); */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(0, 0, 0);
+}
+
+.Pop-up {
+    align-items: center;
+    right: 36%;
+    width: 30vw;
+    top: 18vh;
+    height: 60vh;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    border: 3px solid #f1f1f1;
+    /* border-top: 5px solid green;
+    border-bottom: 5px solid yellow;
+    border-left: 5px solid red;
+    border-right: 5px solid blue; */
+    /* animation: disco 1s linear 0s infinite forwards; */
+    /* animation: borderRadial var(--d) linear infinite forwards; */
+    /* animation: borderRotate var(--d) linear infinite forwards; */
+    transition: all 1s;
+    z-index: 9;
+}
+
+
+h3 {
+    text-align: center;
+    margin: 5vh;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.email {
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+.email input {
+    width: 24vw;
+    height: 8vh;
+    border-radius: 2vw;
+    margin-left: -2vw;
+    text-align: center;
+    border-style: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.password {
+    margin-top: 3vh;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+.password input {
+    width: 24vw;
+    height: 8vh;
+    border-radius: 2vw;
+    margin-left: -2vw;
+    text-align: center;
+    border-style: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.forgot {
+    text-align: center;
+    margin-top: 3vh;
+}
+
+.log {
+    margin-top: 2vh;
+    margin-left: 3.5vw;
+    margin-right: 3vw;
+    width: 20vw;
+    height: 8vh;
+    color: black;
+    background-color: blueviolet;
+    border-radius: 2.5vw;
+    border-style: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+}
+
+.sign {
+    margin-top: 3vh;
+    text-align: center;
+}
+
+.sign a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+button i {
+    color: black;
+}
