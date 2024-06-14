@@ -1,4 +1,4 @@
-let btn = document.getElementById("#btn");
+let btn = document.getElementByClass(".btn");
 
 btn.addEventListener("click", (e)=> {
      e.preventDefault();
