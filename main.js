@@ -1,4 +1,10 @@
+let btn = document.getElementById("#btn");
 
+btn.addEventListener("click", (e)=> {
+     e.preventDefault();
+    window.location.href ="dashboard.html";
+
+})
 function openForm () {
     document.getElementById("myForm").style.display = "block";
     // alert("I am working");
